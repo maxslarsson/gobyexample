@@ -5,13 +5,12 @@ import (
 	"strings"
 
 	"github.com/maxslarsson/gobyexample/constants"
-
-	"github.com/fatih/color"
-
-	"github.com/maxslarsson/gobyexample/variables"
-
+	_for "github.com/maxslarsson/gobyexample/for"
 	"github.com/maxslarsson/gobyexample/helloworld"
 	"github.com/maxslarsson/gobyexample/values"
+	"github.com/maxslarsson/gobyexample/variables"
+
+	"github.com/fatih/color"
 )
 
 func main() {
@@ -20,6 +19,7 @@ func main() {
 		fn{"Values", values.Values},
 		fn{"Variables", variables.Variables},
 		fn{"Constants", constants.Constants},
+		fn{"For", _for.For},
 	}
 
 	for i, function := range functions {
