@@ -7,6 +7,8 @@ import (
 	"github.com/maxslarsson/gobyexample/constants"
 	_for "github.com/maxslarsson/gobyexample/for"
 	"github.com/maxslarsson/gobyexample/helloworld"
+	"github.com/maxslarsson/gobyexample/ifelse"
+	_switch "github.com/maxslarsson/gobyexample/switch"
 	"github.com/maxslarsson/gobyexample/values"
 	"github.com/maxslarsson/gobyexample/variables"
 
@@ -20,6 +22,8 @@ func main() {
 		fn{"Variables", variables.Variables},
 		fn{"Constants", constants.Constants},
 		fn{"For", _for.For},
+		fn{"If/Else", ifelse.IfElse},
+		fn{"Switch", _switch.Switch()},
 	}
 
 	for i, function := range functions {
