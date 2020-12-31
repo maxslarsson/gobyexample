@@ -23,7 +23,7 @@ func main() {
 		fn{"Constants", constants.Constants},
 		fn{"For", _for.For},
 		fn{"If/Else", ifelse.IfElse},
-		fn{"Switch", _switch.Switch()},
+		fn{"Switch", _switch.Switch},
 	}
 
 	for i, function := range functions {
